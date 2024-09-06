@@ -34,7 +34,7 @@ export default function NewProject({ onAdd, onCancel })
     return(
         <>
             <Modal ref={modalRef} buttonCaption={'Close'}>
-                <h2 className='text-xl font-bold text-text-color mt-4 my-4'>Invalid Input</h2>
+                <h2 className='text-xl font-bold text-primary mt-4 my-4'>Invalid Input</h2>
                 <p className='text-contrast mb-4'>Oops...looks like you forgot to enter a value.</p>
                 <p className='text-contrast mb-4'>Please make sure you provide a valie value for every input field.</p>
             </Modal>
